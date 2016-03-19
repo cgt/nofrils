@@ -12,8 +12,8 @@ endif
 
 let g:colors_name = "nofrils-dark"
 
-if !exists("g:nofrils_strbackgrounds") " {{{
-    let g:nofrils_strbackgrounds = 0
+if !exists("g:nofrils_strcoloring") " {{{
+    let g:nofrils_strcoloring = 0
 endif " }}}
 
 " Baseline {{{
@@ -21,14 +21,14 @@ hi Normal		term=NONE	cterm=NONE	ctermfg=15	ctermbg=235	gui=NONE	guifg=#FFFFFF	gu
 " }}}
 
 " Faded {{{
-hi ColorColumn		term=NONE	cterm=NONE	ctermfg=0	ctermbg=240	gui=NONE	guifg=#000000	guibg=#585858
-hi Comment		term=NONE	cterm=NONE	ctermfg=240	ctermbg=NONE	gui=NONE	guifg=#585858	guibg=NONE
+hi ColorColumn		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=236	gui=NONE	guifg=NONE	guibg=#303030
+hi Comment		term=NONE	cterm=NONE	ctermfg=246	ctermbg=NONE	gui=NONE	guifg=#949494	guibg=NONE
 hi FoldColumn		term=NONE	cterm=NONE	ctermfg=0	ctermbg=240	gui=NONE	guifg=#000000	guibg=#585858
-hi Folded		term=NONE	cterm=NONE	ctermfg=240	ctermbg=NONE	gui=NONE	guifg=#585858	guibg=NONE
+hi Folded		term=NONE	cterm=NONE	ctermfg=246	ctermbg=NONE	gui=NONE	guifg=#949494	guibg=NONE
 hi LineNr		term=NONE	cterm=NONE	ctermfg=8	ctermbg=235	gui=NONE	guifg=#555555	guibg=#262626
-hi NonText		term=NONE	cterm=NONE	ctermfg=240	ctermbg=NONE	gui=NONE	guifg=#585858	guibg=NONE
-hi SignColumn		term=NONE	cterm=NONE	ctermfg=240	ctermbg=NONE	gui=NONE	guifg=#585858	guibg=NONE
-hi SpecialKey		term=NONE	cterm=NONE	ctermfg=240	ctermbg=NONE	gui=NONE	guifg=#585858	guibg=NONE
+hi NonText		term=NONE	cterm=NONE	ctermfg=246	ctermbg=NONE	gui=NONE	guifg=#949494	guibg=NONE
+hi SignColumn		term=NONE	cterm=NONE	ctermfg=246	ctermbg=NONE	gui=NONE	guifg=#949494	guibg=NONE
+hi SpecialKey		term=NONE	cterm=NONE	ctermfg=246	ctermbg=NONE	gui=NONE	guifg=#949494	guibg=NONE
 hi StatusLineNC		term=NONE	cterm=NONE	ctermfg=white	ctermbg=240	gui=NONE	guifg=#FFFFFF	guibg=#585858
 hi VertSplit		term=NONE	cterm=NONE	ctermfg=black	ctermbg=240	gui=NONE	guifg=#000000	guibg=#585858
 " }}}
@@ -127,7 +127,8 @@ hi Underlined		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NON
 " }}}
 
 " Optional Syntax Features {{{
-if g:nofrils_strbackgrounds
-    hi String		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=233	gui=NONE	guifg=NONE	guibg=#121212
+if g:nofrils_strcoloring
+    hi String		term=NONE	cterm=NONE	ctermfg=246	ctermbg=NONE    gui=NONE	guifg=#949494	guibg=NONE
+    hi Character	term=NONE	cterm=NONE	ctermfg=246	ctermbg=NONE	gui=NONE	guifg=#949494	guibg=NONE
 end
 " }}}

@@ -1,16 +1,15 @@
-" Name: No Frils Dark Colorscheme
-" Author: robertmeta (on Github)
-" URL: https://github.com/robertmeta/nofrils
+" Name: No Frils Dark Colorscheme (cgt)
+" Author: robertmeta (on Github), cgt
+" URL: https://github.com/cgt/nofrils
 " (see this url for latest release & screenshots)
 " License: OSI approved MIT license
-" Modified: 2016 Feb 26
 
 hi clear
 if exists("syntax_on")
     syntax reset
 endif
 
-let g:colors_name = "nofrils-dark"
+let g:colors_name = "nofrils-cgt"
 
 if !exists("g:nofrils_strcoloring") " {{{
     let g:nofrils_strcoloring = 0

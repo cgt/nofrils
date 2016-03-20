@@ -1,7 +1,6 @@
 " Name: No Frils Dark Colorscheme (cgt)
 " Author: robertmeta (on Github), cgt
 " URL: https://github.com/cgt/nofrils
-" (see this url for latest release & screenshots)
 " License: OSI approved MIT license
 
 hi clear
@@ -10,10 +9,6 @@ if exists("syntax_on")
 endif
 
 let g:colors_name = "nofrils-cgt"
-
-if !exists("g:nofrils_strcoloring") " {{{
-    let g:nofrils_strcoloring = 0
-endif " }}}
 
 " Baseline {{{
 hi Normal		term=NONE	cterm=NONE	ctermfg=15	ctermbg=235	gui=NONE	guifg=#FFFFFF	guibg=#262626
@@ -30,6 +25,9 @@ hi SignColumn		term=NONE	cterm=NONE	ctermfg=246	ctermbg=NONE	gui=NONE	guifg=#949
 hi SpecialKey		term=NONE	cterm=NONE	ctermfg=246	ctermbg=NONE	gui=NONE	guifg=#949494	guibg=NONE
 hi StatusLineNC		term=NONE	cterm=NONE	ctermfg=white	ctermbg=240	gui=NONE	guifg=#FFFFFF	guibg=#585858
 hi VertSplit		term=NONE	cterm=NONE	ctermfg=black	ctermbg=240	gui=NONE	guifg=#000000	guibg=#585858
+
+hi String		term=NONE	cterm=NONE	ctermfg=246	ctermbg=NONE    gui=NONE	guifg=#949494	guibg=NONE
+hi Character	term=NONE	cterm=NONE	ctermfg=246	ctermbg=NONE	gui=NONE	guifg=#949494	guibg=NONE
 " }}}
 
 " Highlighted {{{
@@ -123,13 +121,6 @@ hi Title		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	gui
 hi Typedef		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
 hi Type		        term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
 hi Underlined		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
-" }}}
-
-" Optional Syntax Features {{{
-if g:nofrils_strcoloring
-    hi String		term=NONE	cterm=NONE	ctermfg=246	ctermbg=NONE    gui=NONE	guifg=#949494	guibg=NONE
-    hi Character	term=NONE	cterm=NONE	ctermfg=246	ctermbg=NONE	gui=NONE	guifg=#949494	guibg=NONE
-end
 " }}}
 
 " Special stuff {{{

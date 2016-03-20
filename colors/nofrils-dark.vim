@@ -132,3 +132,7 @@ if g:nofrils_strcoloring
     hi Character	term=NONE	cterm=NONE	ctermfg=246	ctermbg=NONE	gui=NONE	guifg=#949494	guibg=NONE
 end
 " }}}
+
+" Special stuff {{{
+hi gitcommitSummary ctermbg=NONE ctermfg=67 cterm=NONE guibg=NONE guifg=#5f87af gui=NONE
+" }}}

@@ -12,11 +12,10 @@ endif
 
 let g:colors_name = "nofrils-cgt"
 
-" Baseline {{{
+" Baseline
 hi Normal		term=NONE	cterm=NONE	ctermfg=255	ctermbg=234	gui=NONE	guifg=#eeeeee	guibg=#1c1c1c
-" }}}
 
-" Faded {{{
+" Faded
 hi ColorColumn		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=236	gui=NONE	guifg=NONE	guibg=#303030
 hi Comment		term=NONE	cterm=NONE	ctermfg=246	ctermbg=NONE	gui=NONE	guifg=#949494	guibg=NONE
 hi FoldColumn		term=NONE	cterm=NONE	ctermfg=0	ctermbg=240	gui=NONE	guifg=#000000	guibg=#585858
@@ -31,9 +30,8 @@ hi VertSplit		term=NONE	cterm=NONE	ctermfg=black	ctermbg=240	gui=NONE	guifg=#000
 hi Comment		term=NONE	cterm=NONE	ctermfg=246	ctermbg=NONE	gui=NONE	guifg=#949494	guibg=NONE
 hi String		term=NONE	cterm=NONE	ctermfg=246	ctermbg=NONE    gui=NONE	guifg=#949494	guibg=NONE
 hi Character	term=NONE	cterm=NONE	ctermfg=246	ctermbg=NONE	gui=NONE	guifg=#949494	guibg=NONE
-" }}}
 
-" Highlighted {{{
+" Highlighted
 hi CursorIM		term=NONE	cterm=NONE	ctermfg=0	ctermbg=4	gui=NONE	guifg=#000000	guibg=#00FFFF
 hi CursorLineNr		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=0	gui=NONE	guifg=NONE	guibg=#000000
 hi CursorLine		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=0	gui=NONE	guifg=NONE	guibg=#000000
@@ -50,9 +48,8 @@ hi StatusLine		term=NONE	cterm=NONE	ctermfg=0	ctermbg=15	gui=NONE	guifg=#000000	
 hi Todo		        term=NONE	cterm=NONE	ctermfg=10	ctermbg=NONE	gui=NONE	guifg=#00FF00   guibg=#000000
 hi VisualNOS		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=69	gui=NONE	guifg=NONE	guibg=#5F87FF
 hi WarningMsg		term=NONE	cterm=NONE	ctermfg=15	ctermbg=52	gui=NONE	guifg=NONE	guibg=#5F0000
-" }}}
 
-" Reversed {{{
+" Reversed
 hi DiffText		term=reverse	cterm=reverse	ctermfg=NONE	ctermbg=NONE	gui=reverse	guifg=NONE	guibg=NONE
 hi IncSearch		term=reverse	cterm=reverse	ctermfg=NONE	ctermbg=NONE	gui=reverse	guifg=NONE	guibg=NONE
 hi MatchParen		term=reverse	cterm=reverse	ctermfg=NONE	ctermbg=NONE	gui=reverse	guifg=NONE	guibg=NONE
@@ -60,23 +57,20 @@ hi Pmenu		term=reverse	cterm=reverse	ctermfg=NONE	ctermbg=NONE	gui=reverse	guifg
 hi TabLineSel		term=reverse	cterm=reverse	ctermfg=NONE	ctermbg=NONE	gui=reverse	guifg=NONE	guibg=NONE
 hi Visual		term=reverse	cterm=reverse	ctermfg=NONE	ctermbg=NONE	gui=reverse	guifg=NONE	guibg=NONE
 hi WildMenu		term=reverse	cterm=reverse	ctermfg=NONE	ctermbg=NONE	gui=reverse	guifg=NONE	guibg=NONE
-" }}}
 
-" Diff {{{
+" Diff
 hi DiffAdd		term=NONE	cterm=NONE	ctermfg=15	ctermbg=22	gui=NONE	guifg=NONE	guibg=#005F00
 hi DiffChange		term=NONE	cterm=NONE	ctermfg=15	ctermbg=17	gui=NONE	guifg=NONE	guibg=#00005F
 hi DiffDelete		term=NONE	cterm=NONE	ctermfg=15	ctermbg=52	gui=NONE	guifg=NONE	guibg=#5F0000
 hi DiffText		term=reverse	cterm=reverse	ctermfg=NONE	ctermbg=NONE	gui=reverse	guifg=NONE	guibg=NONE
-" }}}
 
-" Spell {{{
+" Spell
 hi SpellBad		term=underline	cterm=underline	ctermfg=13	ctermbg=NONE	gui=underline	guifg=#FF00FF	guibg=NONE
 hi SpellCap		term=underline	cterm=underline	ctermfg=13	ctermbg=NONE	gui=underline	guifg=#FF00FF	guibg=NONE
 hi SpellLocal		term=underline	cterm=underline	ctermfg=13	ctermbg=NONE	gui=underline	guifg=#FF00FF	guibg=NONE
 hi SpellRare		term=underline	cterm=underline	ctermfg=13	ctermbg=NONE	gui=underline	guifg=#FF00FF	guibg=NONE
-" }}}
 
-" Vim Features {{{
+" Vim Features
 hi Menu		        term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
 hi PmenuSbar		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
 hi PmenuSel		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
@@ -85,9 +79,8 @@ hi Scrollbar		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE
 hi TabLine		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
 hi TabLineFill		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
 hi Tooltip		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
-" }}}
 
-" Syntax Highlighting (or lack of) {{{
+" Syntax Highlighting (or lack of)
 hi Boolean		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
 hi Conceal		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
 hi Conditional		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
@@ -122,8 +115,6 @@ hi Title		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	gui
 hi Typedef		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
 hi Type		        term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
 hi Underlined		term=NONE	cterm=NONE	ctermfg=NONE	ctermbg=NONE	gui=NONE	guifg=NONE	guibg=NONE
-" }}}
 
-" Special stuff {{{
+" Special stuff
 hi gitcommitSummary ctermbg=NONE ctermfg=67 cterm=NONE guibg=NONE guifg=#5f87af gui=NONE
-" }}}

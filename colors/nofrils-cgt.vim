@@ -103,16 +103,16 @@ hi! link Operator Boolean
 hi! link PreCondit Boolean
 hi! link PreProc Boolean
 hi! link Repeat Boolean
+hi! link Special Boolean
 hi! link SpecialChar Boolean
 hi! link SpecialComment Boolean
-hi! link Special Boolean
 hi! link Statement Boolean
 hi! link StorageClass Boolean
 hi! link Structure Boolean
 hi! link Tag Boolean
 hi! link Title Boolean
-hi! link Typedef Boolean
 hi! link Type Boolean
+hi! link Typedef Boolean
 hi! link Underlined Boolean
 
 " Git

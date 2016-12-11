@@ -13,7 +13,7 @@ endif
 let g:colors_name = "nofrils-cgt"
 
 " Baseline {{{
-hi Normal		term=NONE	cterm=NONE	ctermfg=15	ctermbg=235	gui=NONE	guifg=#FFFFFF	guibg=#262626
+hi Normal		term=NONE	cterm=NONE	ctermfg=255	ctermbg=234	gui=NONE	guifg=#eeeeee	guibg=#1c1c1c
 " }}}
 
 " Faded {{{

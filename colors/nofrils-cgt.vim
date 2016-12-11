@@ -18,17 +18,17 @@ hi! Normal       term=NONE   cterm=NONE  ctermfg=255     ctermbg=234     gui=NON
 " Faded
 hi! ColorColumn  term=NONE   cterm=NONE  ctermfg=NONE    ctermbg=236     gui=NONE    guifg=NONE      guibg=#303030
 hi! FoldColumn   term=NONE   cterm=NONE  ctermfg=0       ctermbg=240     gui=NONE    guifg=#000000   guibg=#585858
-hi! Folded       term=NONE   cterm=NONE  ctermfg=246     ctermbg=NONE    gui=NONE    guifg=#949494   guibg=NONE
 hi! LineNr       term=NONE   cterm=NONE  ctermfg=240     ctermbg=NONE    gui=NONE    guifg=#585858   guibg=NONE
 hi! StatusLineNC term=NONE   cterm=NONE  ctermfg=white   ctermbg=240     gui=NONE    guifg=#FFFFFF   guibg=#585858
 hi! VertSplit    term=NONE   cterm=NONE  ctermfg=black   ctermbg=240     gui=NONE    guifg=#000000   guibg=#585858
 
 hi! Comment      term=NONE   cterm=NONE  ctermfg=246     ctermbg=NONE    gui=NONE    guifg=#949494   guibg=NONE
-hi! link String Comment
-hi! link Character Comment
-hi! link NonText Comment
+hi! link Character  Comment
+hi! link Folded     Comment
+hi! link NonText    Comment
 hi! link SignColumn Comment
 hi! link SpecialKey Comment
+hi! link String     Comment
 
 " Highlighted
 hi! CursorIM     term=NONE   cterm=NONE  ctermfg=0       ctermbg=4       gui=NONE    guifg=#000000   guibg=#00FFFF

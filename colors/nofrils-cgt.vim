@@ -3,6 +3,8 @@
 " URL: https://github.com/cgt/nofrils
 " License: OSI approved MIT license
 
+set background=dark
+
 hi clear
 if exists("syntax_on")
     syntax reset

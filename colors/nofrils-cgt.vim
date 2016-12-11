@@ -115,5 +115,8 @@ hi! link Typedef Boolean
 hi! link Type Boolean
 hi! link Underlined Boolean
 
-" Special stuff
+" Git
 hi! gitcommitSummary ctermbg=NONE ctermfg=67 cterm=NONE guibg=NONE guifg=#5f87af gui=NONE
+
+" Sneak
+hi! link Sneak DiffText

@@ -5,3 +5,5 @@ This is my fork of [robertmeta](https://github.com/robertmeta)'s
 
 To use:
 - :colo nofrils-cgt
+
+![Screenshot](https://cgt.github.io/nofrils-cgt/nofrilscgt.png)
